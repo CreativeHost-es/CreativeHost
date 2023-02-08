@@ -14,7 +14,7 @@ echo "##########################################################################
 echo ""
 echo "* [0] Install Updates Ubuntu"
 echo "* [1] Install Warp to enable Ipv4 on Ipv6 only"
-echo "* [3] Exit"
+echo "* [2] Exit"
 
 read -p "Enter Input (0-2): " input
 
