@@ -21,7 +21,7 @@ read -p "Enter Input (0-2): " input
 case $input in
      
     0)
-    apt update && apt upgrade -y
+    apt update && apt upgrade -y;;
     1)
     apt update
     apt install curl -y
