@@ -1,5 +1,5 @@
 if warp h foo >/dev/null 2>&1; then
-    echo "Endpoint = [2001:67c:2b0:db32:0:1:a29f:c001]:2408" >> /etc/wireguard/wgcf.conf
+    echo "Endpoint = [" >> /etc/wireguard/wgcf.conf
     echo "Patch was successfully applied"
     echo "Now run 'warp o' again to activate warp"
 else
