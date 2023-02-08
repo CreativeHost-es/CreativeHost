@@ -26,7 +26,7 @@ case $input in
     1)
     apt update
     apt install curl -y
-    wget -N https://raw.githubusercontent.com/Dectectable/creativehost/main/scripts/warpv6/install.sh && bash install.sh;;
+    wget -N https://raw.githubusercontent.com/Dectectable/CreativeHost/main/scripts/warpv6/install.sh && bash install.sh;;
     2)
     echo "#######################################################################################"
     echo "#"
