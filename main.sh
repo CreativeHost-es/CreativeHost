@@ -17,7 +17,7 @@ echo "* [1] Install Warp to enable Ipv4 on Ipv6 only"
 echo "* [2] Get our Discord Now"
 echo "* [3] Exit"
 
-read -p "Enter Input (1-2): " input
+read -p "Enter Input (0-3): " input
 
 case $input in
      
